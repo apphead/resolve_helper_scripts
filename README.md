@@ -1,10 +1,16 @@
-# Davinci Resolve Footage Importer
+# Davinci Resolve Helper Scripts
 
-Tool for importing a folder containing sub-folders and footages to Davinci Resolve.
-
-Created with Davinci Resolve scripting API.
-
+Library for various tools created with Davinci Resolve scripting API.
 GUI made with PySimpleGUI, which is easier GUI solution for new programmers.
+
+# Credits to 
+-  [Qiang Tang](https://github.com/veryqiang) for his foundational implementation of pysimplegui in Davinci Resolve
+
+# Scripts:
+
+- importer.py:  for importing a folder containing sub-folders and footages to Davinci Resolve.
+
+
 
 ## Goal
 
@@ -17,8 +23,8 @@ by providing:
 
 There is also an option to create timeline from imported clips, useful for VFX review sessions.
 
-## How to run:
-Make sure you have Python 3.6 or newer installed. 
+## How to install:
+Make sure you have Python 3.6 or newer installed. Open command and navigate to you python installation directory e.g. C:\Python311\
 
 Then install PySimpleGUI:
     
@@ -27,7 +33,10 @@ or
 
     pip3 install pysimplegui
 
-Run the script:
+Then copy the script to %APPDATA%\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\[targetDir]
+    [targetDir] is a subfolder. Have not quite figured out how it affects appearance in the script menu yet. [TODO]
+
+## Run the script:
  
     python3 ./resolve_importer.py
     
