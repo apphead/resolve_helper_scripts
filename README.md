@@ -1,4 +1,6 @@
-# Davinci Resolve Helper Scripts
+## Davinci Resolve Helper Scripts
+
+# This is a work in progress!
 
 Library for various tools created with Davinci Resolve scripting API.
 GUI made with PySimpleGUI, which is easier GUI solution for new programmers.
@@ -17,13 +19,11 @@ The main goal of this library, beside my learning to program, is to help keep a 
     * create timeline from imported clips (optional). Useful for VFX review sessions.
 
 ## How to install:
-Make sure you have Python 3.6 or newer installed. Open command and navigate to you python installation directory e.g. C:\Python311\
+Make sure you have Python 3.6.8 installed (later versions are not compatible!). Open command and navigate to your python installation directory e.g. C:\Python36\
 
-Then install PySimpleGUI:
-    
+Then install PySimpleGUI:  
     pip install pysimplegui
 or
-
     pip3 install pysimplegui
 
 Then copy the script to %APPDATA%\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\[targetDir]
